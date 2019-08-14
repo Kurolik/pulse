@@ -16,4 +16,14 @@
     &__button {
         margin-top: 10px;
     }
+    .error {
+        border: 1px solid $color-red;
+    }
+    label.error {
+        border: none;
+        margin-bottom: 15px;
+        color: $color-red;
+        font-style: italic;
+        font-size: 14px;
+    }
 }

@@ -57,6 +57,11 @@
             font-size: 14px;
         }
     }
+    .footer {
+        &__info {
+            padding-top: 36px;
+        }
+    }
 }
 
 @media (max-width: 767px) {
@@ -283,6 +288,38 @@
         }
         &__subtitle {
             text-align: center;
+        }
+    }
+    .footer {
+        &__info {
+            width: 320px;
+            padding: 42px 40px 30px;
+        }
+        &__address {
+            font-size: 18px;
+            line-height: 22px;
+        }
+        &__phone {
+            margin-top: 36px;
+            text-align: center;
+        }
+        &__social {
+            margin-top: 38px;
+        }
+    }
+    .phone {
+        &_lite {
+            font-size: 18px;
+        }
+    }
+}
+
+@media (max-width: 410px) {
+    .modal {
+        top: calc(50% + 50px);
+        &__close {
+            top: -40px;
+            right: 0;
         }
     }
 }
